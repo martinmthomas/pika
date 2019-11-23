@@ -10,6 +10,16 @@ body {
     padding: 2em 1em !important;
 }
 
+.content {
+    min-height: 20rem;
+}
+
+@media(max-width: 768px) {
+    #productsCarousel img {
+        width: 40%;
+    }
+}
+
 .product-caption {
     color: azure;
 }
